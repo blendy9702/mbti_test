@@ -13,17 +13,17 @@ export interface Question {
 export const questions: Question[] = [
   {
     id: 1,
-    question: "파티에서 당신은 어떤 사람인가요?",
+    question: "E vs I 밸런스 게임",
     emoji: "🎉",
     options: [
       {
-        text: "많은 사람들과 대화하며 에너지를 얻는다",
+        text: "동성로에서 춤추기",
         type: "E",
         emoji: "🗣️",
         gradient: "from-pink-400 via-rose-400 to-orange-400",
       },
       {
-        text: "소수의 친한 사람들과 깊은 대화를 나눈다",
+        text: "유니클로 창고에서 폰없이 3시간 있기",
         type: "I",
         emoji: "💭",
         gradient: "from-orange-400 via-amber-400 to-yellow-400",
@@ -32,36 +32,36 @@ export const questions: Question[] = [
   },
   {
     id: 2,
-    question: "새로운 정보를 받아들일 때 당신은?",
+    question: "N vs S 밸런스 게임",
     emoji: "🧠",
     options: [
       {
-        text: "구체적인 사실과 세부사항에 집중한다",
+        text: "남이 못하는 상상하기",
         type: "S",
-        emoji: "🔍",
+        emoji: "✨",
         gradient: "from-orange-400 via-yellow-400 to-amber-400",
       },
       {
-        text: "전체적인 패턴과 가능성을 본다",
+        text: "남이 모르는 사실 캐치하기",
         type: "N",
-        emoji: "✨",
+        emoji: "🔍",
         gradient: "from-red-400 via-rose-400 to-pink-400",
       },
     ],
   },
   {
     id: 3,
-    question: "중요한 결정을 내릴 때 당신은?",
+    question: "T vs F 밸런스 게임",
     emoji: "⚖️",
     options: [
       {
-        text: "논리적 분석과 객관적 사실을 중시한다",
+        text: "T 한테 팩폭당하기",
         type: "T",
         emoji: "🤔",
         gradient: "from-amber-400 via-orange-400 to-red-400",
       },
       {
-        text: "사람들의 감정과 가치를 고려한다",
+        text: "F 감성팔이 1시간 들어주기",
         type: "F",
         emoji: "❤️",
         gradient: "from-pink-400 via-rose-400 to-red-400",
@@ -70,17 +70,17 @@ export const questions: Question[] = [
   },
   {
     id: 4,
-    question: "일상생활에서 당신은?",
+    question: "J vs P 밸런스 게임",
     emoji: "📅",
     options: [
       {
-        text: "계획을 세우고 체계적으로 진행한다",
+        text: "분단위로 계획짜고 여행가기",
         type: "J",
         emoji: "📋",
         gradient: "from-red-400 via-orange-400 to-yellow-400",
       },
       {
-        text: "유연하게 상황에 맞춰 적응한다",
+        text: "무계획 여행가기",
         type: "P",
         emoji: "🌊",
         gradient: "from-pink-400 via-rose-400 to-orange-400",
