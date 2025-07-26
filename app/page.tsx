@@ -1,12 +1,12 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { mbtiDescriptions, questions } from "@/data/mbtiData";
-import { AnimatePresence, motion } from "framer-motion";
+import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, RotateCcw, Sparkles } from "lucide-react";
-import { useState } from "react";
+import { questions, mbtiDescriptions, Question } from "@/data/mbtiData";
 
 export default function MBTITest() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
